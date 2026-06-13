@@ -8,8 +8,6 @@
 
 This Privacy Policy describes how we collect, use, store, and share information when you use **Circuit Sort** (the “App”) on mobile devices. By using the App, you agree to this policy. If you do not agree, please do not use the App.
 
-> **Important:** This document is a practical template for indie developers. It is **not legal advice**. Laws vary by country and change over time. You should have a qualified attorney review this policy for your situation, especially if you collect sensitive data, serve children, or operate in the EU, UK, California, or other regulated regions.
-
 ---
 
 ## 1. Summary
@@ -129,7 +127,7 @@ If you are located outside the country where our service providers process data,
 
 The App is **not directed to children under 13** (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children.
 
-If you are a parent or guardian and believe your child has provided personal information, contact us at **[your-email@example.com]** and we will take reasonable steps to delete such information where required by law.
+If you are a parent or guardian and believe your child has provided personal information, contact us at **[hallanhype@gmail.com]** and we will take reasonable steps to delete such information where required by law.
 
 ---
 
@@ -143,7 +141,7 @@ Depending on your location, you may have rights to:
 - Withdraw consent where processing is based on consent  
 - Lodge a complaint with a supervisory authority  
 
-To exercise these rights, contact **[your-email@example.com]**. We may need to verify your request.
+To exercise these rights, contact **[hallanhype@gmail.com]**. We may need to verify your request.
 
 ---
 
@@ -151,7 +149,7 @@ To exercise these rights, contact **[your-email@example.com]**. We may need to v
 
 Depending on your U.S. state of residence, you may have rights regarding **access, deletion, correction, and opt-out of certain “sales” / “sharing” / targeted advertising** as defined by local law.
 
-**How to submit requests:** Email **[your-email@example.com]** with “Privacy Request” in the subject line and describe your request.
+**How to submit requests:** Email **[hallanhype@gmail.com]** with “Privacy Request” in the subject line and describe your request.
 
 We will not discriminate against you for exercising privacy rights where prohibited by law.
 
@@ -171,6 +169,5 @@ We may update this Privacy Policy from time to time. When we do, we will revise 
 
 ## 12. Contact
 
-Questions about this policy: **[your-email@example.com]**  
-Data controller: **[Your legal name or company name]**  
-Address (optional): **[Your address]**
+Questions about this policy: **[hallanhype@gmail.com]**  
+Data controller: **[Brock Hall]**  
