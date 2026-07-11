@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Support — Circuit Sort</title>
+	<style>
+		:root {
+			color-scheme: light dark;
+			--text: #1a1a1a;
+			--muted: #555;
+			--bg: #ffffff;
+			--border: #e0e0e0;
+			--link: #1565c0;
+			--input-bg: #fafafa;
+			--button-bg: #1565c0;
+			--button-text: #ffffff;
+			--success: #2e7d32;
+			--error: #c62828;
+		}
+		@media (prefers-color-scheme: dark) {
+			:root {
+				--text: #e8e8e8;
+				--muted: #b0b0b0;
+				--bg: #121212;
+				--border: #333;
+				--link: #64b5f6;
+				--input-bg: #1e1e1e;
+				--button-bg: #1976d2;
+				--button-text: #ffffff;
+				--success: #81c784;
+				--error: #ef5350;
+			}
+		}
+		* { box-sizing: border-box; }
+		body {
+			margin: 0;
+			padding: 2rem 1rem 3rem;
+			font-family: Georgia, "Times New Roman", serif;
+			font-size: 1.05rem;
+			line-height: 1.65;
+			color: var(--text);
+			background: var(--bg);
+		}
+		main {
+			max-width: 42rem;
+			margin: 0 auto;
+		}
+		h1 {
+			font-size: 1.85rem;
+			line-height: 1.25;
+			margin: 0 0 1.25rem;
+		}
+		h2 {
+			font-size: 1.35rem;
+			margin: 2.25rem 0 0.75rem;
+			padding-top: 0.5rem;
+			border-top: 1px solid var(--border);
+		}
+		p { margin: 0.75rem 0; }
+		ul { margin: 0.5rem 0 1rem; padding-left: 1.5rem; }
+		li { margin: 0.35rem 0; }
+		a { color: var(--link); }
+		strong { font-weight: 700; }
+		.meta {
+			color: var(--muted);
+			font-size: 0.95rem;
+			margin-bottom: 1.5rem;
+		}
+		.nav {
+			margin-bottom: 1.5rem;
+			font-size: 0.95rem;
+		}
+		form {
+			margin: 1.25rem 0 0;
+		}
+		label {
+			display: block;
+			font-weight: 700;
+			margin: 1rem 0 0.35rem;
+		}
+		input[type="email"],
+		textarea {
+			width: 100%;
+			padding: 0.65rem 0.75rem;
+			font: inherit;
+			font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+			font-size: 1rem;
+			line-height: 1.4;
+			color: var(--text);
+			background: var(--input-bg);
+			border: 1px solid var(--border);
+			border-radius: 4px;
+		}
+		textarea {
+			min-height: 9rem;
+			resize: vertical;
+		}
+		input:focus,
+		textarea:focus {
+			outline: 2px solid var(--link);
+			outline-offset: 1px;
+		}
+		button[type="submit"] {
+			margin-top: 1.25rem;
+			padding: 0.7rem 1.25rem;
+			font: inherit;
+			font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+			font-size: 1rem;
+			font-weight: 600;
+			color: var(--button-text);
+			background: var(--button-bg);
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		button[type="submit"]:disabled {
+			opacity: 0.6;
+			cursor: not-allowed;
+		}
+		.hint {
+			color: var(--muted);
+			font-size: 0.9rem;
+			margin-top: 0.35rem;
+		}
+		.status {
+			margin-top: 1rem;
+			padding: 0.75rem 1rem;
+			border-radius: 4px;
+			font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+			font-size: 0.95rem;
+		}
+		.status.success {
+			color: var(--success);
+			border: 1px solid var(--success);
+		}
+		.status.error {
+			color: var(--error);
+			border: 1px solid var(--error);
+		}
+		.hidden { display: none; }
+	</style>
+</head>
+<body>
+	<main>
+		<p class="nav"><a href="privacy-policy.html">Privacy Policy</a></p>
+
+		<h1>Circuit Sort — Support</h1>
+
+		<div class="meta">
+			<p><strong>Developer:</strong> Brock Hall</p>
+			<p><strong>Email:</strong> <a href="mailto:hallanhype@gmail.com">hallanhype@gmail.com</a></p>
+		</div>
+
+		<p>Need help with Circuit Sort? Send a message below and it will be delivered to our support inbox. You can also email us directly at <a href="mailto:hallanhype@gmail.com">hallanhype@gmail.com</a>.</p>
+
+		<h2>Send feedback</h2>
+
+		<form id="support-form" novalidate>
+			<input type="hidden" name="access_key" value="f4ea2556-350c-42e8-b07c-b85069928a8a">
+			<input type="hidden" name="subject" value="Circuit Sort Support (Web)">
+			<input type="hidden" name="from_name" value="Circuit Sort Support">
+			<input type="checkbox" name="botcheck" class="hidden" tabindex="-1" autocomplete="off">
+
+			<label for="email">Your email <span class="hint">(optional — only if you want a reply)</span></label>
+			<input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com">
+
+			<label for="message">Message</label>
+			<textarea id="message" name="message" required placeholder="Describe your issue, question, or feedback…"></textarea>
+
+			<button type="submit" id="submit-btn">Send message</button>
+			<div id="status" class="status hidden" role="status" aria-live="polite"></div>
+		</form>
+
+		<h2>Common questions</h2>
+		<ul>
+			<li><strong>Restore purchases (iOS):</strong> Open the in-game shop and tap <strong>Restore Purchases</strong>.</li>
+			<li><strong>Remove ads:</strong> Available as a one-time purchase in the shop.</li>
+			<li><strong>Daily Challenge:</strong> One special puzzle per day — undo and power-ups are disabled for fairness.</li>
+			<li><strong>Progress lost?</strong> Game progress is stored on your device. Uninstalling the app may remove local save data.</li>
+		</ul>
+
+		<p>See our <a href="privacy-policy.html">Privacy Policy</a> for how we handle data.</p>
+	</main>
+
+	<script>
+		(function () {
+			var form = document.getElementById("support-form");
+			var submitBtn = document.getElementById("submit-btn");
+			var statusEl = document.getElementById("status");
+
+			function showStatus(text, kind) {
+				statusEl.textContent = text;
+				statusEl.className = "status " + kind;
+				statusEl.classList.remove("hidden");
+			}
+
+			form.addEventListener("submit", function (event) {
+				event.preventDefault();
+				statusEl.classList.add("hidden");
+
+				var message = document.getElementById("message").value.trim();
+				if (!message) {
+					showStatus("Please enter a message before sending.", "error");
+					return;
+				}
+
+				var payload = {
+					access_key: form.access_key.value,
+					subject: form.subject.value,
+					from_name: form.from_name.value,
+					message: message,
+					app: "Circuit Sort",
+					source: "support.html"
+				};
+
+				var email = document.getElementById("email").value.trim();
+				if (email) {
+					payload.email = email;
+				}
+
+				submitBtn.disabled = true;
+				submitBtn.textContent = "Sending…";
+
+				fetch("https://api.web3forms.com/submit", {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+						"Accept": "application/json"
+					},
+					body: JSON.stringify(payload)
+				})
+					.then(function (response) {
+						return response.json().then(function (data) {
+							return { ok: response.ok, data: data };
+						});
+					})
+					.then(function (result) {
+						if (result.ok && result.data.success) {
+							form.reset();
+							showStatus("Thanks! Your message was sent. We will get back to you if you included an email.", "success");
+						} else {
+							showStatus("Something went wrong. Please email hallanhype@gmail.com directly.", "error");
+						}
+					})
+					.catch(function () {
+						showStatus("Could not send right now. Please email hallanhype@gmail.com directly.", "error");
+					})
+					.finally(function () {
+						submitBtn.disabled = false;
+						submitBtn.textContent = "Send message";
+					});
+			});
+		})();
+	</script>
+</body>
+</html>
